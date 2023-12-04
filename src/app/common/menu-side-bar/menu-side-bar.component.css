@@ -1,0 +1,50 @@
+.sidenav{
+    width: 220px;
+    height:100vh;
+    background-color: darkblue;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.custom-class{
+    size: 100px;
+}
+
+.sidenav-ul{
+   list-style: none;
+   padding-left: 1.5rem;
+}
+.sidenav-li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom:4px;
+}
+.sidenav-li .sidenav-link{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+   
+    /* margin: 2px; */
+    text-decoration: none;
+}
+.icon-class{
+    display: flex;
+    align-items: center;
+}
+.li-text {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
